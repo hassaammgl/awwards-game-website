@@ -1,4 +1,5 @@
 @import url("https://fonts.cdnfonts.com/css/general-sans");
+/** eslint  */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -37,7 +38,7 @@ body {
 	}
 }
 
-/* @layer utilities {
+ @layer utilities {
 	.border-hsla {
 		@apply border border-white/20;
 	}
@@ -141,9 +142,9 @@ body {
 	.contact-clip-path-2 {
 		clip-path: polygon(29% 15%, 85% 30%, 50% 100%, 10% 64%);
 	}
-} */
+} 
 
-/*
+
 
 .indicator-line {
 	@apply h-1 w-px rounded-full bg-white transition-all duration-200 ease-in-out;
@@ -169,10 +170,10 @@ body {
 	}
 }
 
- */
+ 
 /* From Uiverse.io by G4b413l */
 /* https://uiverse.io/G4b413l/tidy-walrus-92 */
-/* 
+
 .three-body {
 	--uib-size: 35px;
 	--uib-speed: 0.8s;
@@ -274,4 +275,4 @@ body {
 		transform: translateY(66%) scale(0.65);
 		opacity: 0.8;
 	}
-} */
+} 
