@@ -9,7 +9,7 @@ const navItems = [
 
 const Navbar = () => {
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
-
+  const [isIndicatorActive, setIsIndicatorActive] = useState(false);
 
   const navContainerRef = useRef(null);
   const audioElementRef = useRef(null);
@@ -42,7 +42,7 @@ const Navbar = () => {
               <audio loop ref={audioElementRef} className='hidden' src="/audio/loop.3">
                 {
                   [1, 2, 3, 4].map((bar) => (
-                    <div key={bar} className='indicator-line'>
+                    <div key={bar} className={`indicator-line ${isIndicatorActive ? "active" : ""}`}>
 
                     </div>
                   ))
